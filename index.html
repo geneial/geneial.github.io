@@ -29,11 +29,8 @@
 
       <section>
         <div id="title">
-          <h1>GeneiAL</h1>
+          <h1>libGeneiAL</h1>
           <p>Open Source C++ Genetic Algorithm Library</p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/geneial">geneial</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
         </div>
 
         <p>GeneiAL is an open source extensible <a href="https://en.wikipedia.org/wiki/Genetic_algorithm">genetic algorithm</a> library. It provides a framework to solve optimization problems by maximizing fitness value of the chromosomes in a population over the course of generations using a custom fitness function.
@@ -49,36 +46,38 @@ A doxygen-generated documentation will be available soon.</p>
 <a id="implemented-features" class="anchor" href="#implemented-features" aria-hidden="true"><span class="octicon octicon-link"></span></a>Implemented Features</h2>
 
 <ul>
-<li>support for user-defined chromosome types (e.g., the optimization of sequences of genes)</li>
-<li>generation of new chromosomes using random values within a user-specified interval</li>
-<li>generation of new chromosomes by partially/fully reusing population from a previous optimization</li>
-<li>multi-threading support for the evaluation of the fitness function</li>
-<li>diagnostic tools to analyze the genetic algorithm's behavior (i.e., runtime measurement, analysis of genetic operators, etc.)</li>
-<li>extendible by user-specified analysis tools with customized pre- and post-processing logic</li>
+  <li>support for user-defined chromosome types (e.g., the optimization of sequences of genes)</li>
+  <li>generation of new chromosomes using random values within a user-specified interval</li>
+  <li>generation of new chromosomes by partially/fully reusing population from a previous optimization</li>
+  <li>multi-threading support for the evaluation of the fitness function</li>
+  <li>diagnostic tools to analyze the genetic algorithm's behavior (i.e., runtime measurement, analysis of genetic operators, etc.)</li>
+  <li>extendible by user-specified analysis tools with customized pre- and post-processing logic</li>
 </ul>
 
 <h3>
 <a id="genetic-operators" class="anchor" href="#genetic-operators" aria-hidden="true"><span class="octicon octicon-link"></span></a>Genetic Operators</h3>
 
 <ul>
-<li>roulette-wheel selection</li>
-<li>N-point crossover, smoothed variant of N-point crossover</li>
-<li>uniform mutation, smoothed variant of uniform mutation</li>
-<li>extendible by customized genetic operators</li>
+  <li>roulette-wheel selection</li>
+  <li>N-point crossover, smoothed variant of N-point crossover</li>
+  <li>uniform mutation, smoothed variant of uniform mutation</li>
+  <li>extendible by customized genetic operators</li>
 </ul>
 
 <h3>
 <a id="stopping-criteria" class="anchor" href="#stopping-criteria" aria-hidden="true"><span class="octicon octicon-link"></span></a>Stopping Criteria</h3>
 
 <ul>
-<li>basic stopping criteria (<em>fixed-point-criterion</em>,<em>maximal number of generations</em>, etc.)</li>
-<li>extendible by user-defined stopping criteria</li>
-<li>support for a combinations (AND, OR, XOR, Negation) of multiple stopping criteria</li>
+  <li>basic stopping criteria (<em>fixed-point-criterion</em>,<em>maximal number of generations</em>, etc.)</li>
+  <li>extendible by user-defined stopping criteria</li>
+  <li>support for a combinations (AND, OR, XOR, Negation) of multiple stopping criteria</li>
 </ul>
       </section>
 
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
+    <footer>
+      <span class="credits">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+    </footer>
   </body>
 </html>
