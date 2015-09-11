@@ -812,17 +812,12 @@ footer .credits {
   font-weight: normal;
   color: #696969;
   margin-top: -10px;
+  display: block;
+  width: 100%;
+  line-height: 30px;
+  text-align: center;
 }
 
-
-@media print, screen and (max-width: 720px) {
-  footer .credits {
-    display: block;
-    width: 100%;
-    line-height: 30px;
-    text-align: center;
-  }
-}
 @media print, screen and (max-width: 480px) {
   #header {
     margin-top: -20px;
